@@ -7,6 +7,7 @@ body{
 
 h1{
   font-family: 'Gulzar', serif;
+  color: #FF6B00;
 }
 
 nav{
@@ -25,8 +26,14 @@ nav{
 
 .row{
   margin: 4% 4%;
+  text-align: left;
 }
 
 .poster-1{
   width: 90%;
+}
+
+.main-heading{
+  margin-top: 2%;
+  font-size: 2rem;
 }
