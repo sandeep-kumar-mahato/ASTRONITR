@@ -12,7 +12,8 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-h1 {
+h1,
+h4 {
   font-family: 'Source Serif Pro', serif;
   color: #FF6B00;
 }
@@ -34,11 +35,6 @@ hr {
 }
 
 /* Header Section */
-
-nav {
-  margin: 2% 4%;
-}
-
 .nav-item {
   padding: 0 18px;
   display: inline-block;
@@ -50,38 +46,45 @@ nav {
   font-size: 1.5rem;
 }
 
-/* Home Section */
-
 .title {
   font-size: 4rem;
   font-weight: 700;
   margin-top: 1%;
 }
 
+/* Home Section */
+
 .solar {
-  width: 94%;
+  width: 100%;
 }
 
-.main-heading {
+h1 {
   margin-top: 2%;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .sub-heading {
-  font-size: 20px;
+  font-size: 1.1rem;
 }
 
 .desc-1 {
-  font-size: 20px;
-  width: 95%;
+  font-size: 1.3rem;
 }
 
 .col {
   display: flex;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
-.col p {
-  width: 42%;
+/* About Section */
+
+.desc-2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+  text-align: left;
 }
 
 /* Card Section*/
@@ -109,13 +112,6 @@ nav {
   margin: 2% 4%;
   padding: 24px;
   display: inline-block;
-}
-
-.card-title,
-.card-text {
-  text-align: center;
-  padding: 0;
-  margin: 0;
 }
 
 /* Footer Section */
