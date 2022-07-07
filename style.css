@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h4 {
+h4,
+h5 {
   font-family: 'Source Serif Pro', serif;
   color: #FF6B00;
 }
@@ -187,11 +188,6 @@ footer {
     width: 47%;
     padding: 10px;
     margin: 5px 3px;
-  }
-
-  .desc2 {
-    font-size: 15px;
-    margin: -15px;
   }
 
   /* Footer Section */
