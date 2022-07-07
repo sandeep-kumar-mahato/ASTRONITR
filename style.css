@@ -11,8 +11,9 @@ h1 {
   color: #FF6B00;
 }
 
-.container{
-  margin: 2% %;
+.container {
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 .row {
@@ -70,7 +71,7 @@ nav {
 /* Card Section*/
 
 .card {
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
 }
 
