@@ -3,6 +3,7 @@
 body {
   background-color: antiquewhite;
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 h1 {
@@ -45,7 +46,7 @@ nav {
   font-size: 20px;
 }
 
-.desc-1{
+.desc-1 {
   font-size: 24px;
   width: 95%;
 }
@@ -55,13 +56,19 @@ nav {
   justify-content: space-between;
 }
 
-.col p{
+.col p {
   width: 42%;
 }
 
-/* Card */
+/* Card Section*/
 
 .card {
   max-width: 80%;
   margin: auto;
+}
+
+/* Footer Section */
+
+footer {
+  padding-top: 5%;
 }
