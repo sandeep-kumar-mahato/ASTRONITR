@@ -10,6 +10,13 @@ h1 {
   color: #FF6B00;
 }
 
+.row {
+  margin: 2% 7%;
+  text-align: left;
+}
+
+/* Header Section */
+
 nav {
   margin: 2% 4%;
 }
@@ -24,9 +31,37 @@ nav {
   font-size: 1.5rem;
 }
 
+/* Home Section */
+
+.solar {
+  width: 94%;
+}
+
+.main-heading {
+  margin-top: 2%;
+}
+
+.sub-heading {
+  font-size: 20px;
+}
+
+.desc-1{
+  font-size: 24px;
+  width: 95%;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col p{
+  width: 42%;
+}
+
 /* Card */
 
-.card{
+.card {
   max-width: 80%;
   margin: auto;
 }
