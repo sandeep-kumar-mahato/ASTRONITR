@@ -115,6 +115,12 @@ h1 {
   display: inline-block;
 }
 
+/* Blog Section */
+
+.short-title{
+  text-align: right;
+}
+
 /* Footer Section */
 
 footer {
