@@ -24,28 +24,9 @@ nav {
   font-size: 1.5rem;
 }
 
-.row {
-  margin: 4% 4%;
-  text-align: left;
-  padding-left: 24px;
-}
+/* Card */
 
-.poster-1 {
-  width: 70%;
-  margin-left: 18%;
-}
-
-.main-heading {
-  margin-top: 2%;
-  font-size: 2rem;
-  margin-right: 8%;
-}
-
-.sub-heading {
-  margin-right: 8%;
-}
-
-.desc-1 {
-  font-size: 25px;
-  margin-right: 8%;
+.card{
+  max-width: 80%;
+  margin: auto;
 }
