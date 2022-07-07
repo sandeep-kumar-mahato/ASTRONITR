@@ -16,6 +16,10 @@ h1 {
   text-align: left;
 }
 
+hr{
+  border: 2px solid #000;
+}
+
 /* Header Section */
 
 nav {
