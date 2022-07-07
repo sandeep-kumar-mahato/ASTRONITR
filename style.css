@@ -150,9 +150,9 @@ footer {
 
   /* Home Section */
 
-  .row {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .solar {
@@ -160,7 +160,8 @@ footer {
     margin: auto;
   }
 
-  h1 {
+  h1,
+  .card-title {
     font-size: 1rem;
   }
 
@@ -168,7 +169,8 @@ footer {
     font-size: 0.6rem;
   }
 
-  .desc-1 {
+  .desc-1,
+  .card-text {
     font-size: 0.8rem;
   }
 
@@ -183,7 +185,7 @@ footer {
 
   /* About Section */
 
-  .about{
+  .about {
     font-size: 2rem;
   }
 
@@ -199,6 +201,10 @@ footer {
     width: 100%;
   }
 
+  .row {
+    padding: 0;
+  }
+
   /* Core Team */
 
   .team {
@@ -206,13 +212,23 @@ footer {
   }
 
   .heading {
-    margin-top: 2%;
+    margin-top: 3%;
   }
 
   .core-team {
     width: 47%;
     padding: 10px;
     margin: 5px 3px;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  /* Blog Section */
+
+  .short-title {
+    font-size: 0.7rem;
   }
 
   /* Footer Section */
