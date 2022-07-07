@@ -75,6 +75,25 @@ nav {
   margin: auto;
 }
 
+/* Core Team */
+
+.team{
+  width: 20%;
+  margin: auto;
+}
+
+.heading{
+  margin-top: 0.9%;
+}
+
+
+.core-team{
+  width: 20%;
+  border: 3px solid #000;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
 /* Footer Section */
 
 footer {
@@ -89,7 +108,7 @@ footer {
   }
 
   .row {
-    text-align: center;
+    text-align: left;
   }
 
   hr {
