@@ -16,7 +16,7 @@ h1 {
   text-align: left;
 }
 
-hr{
+hr {
   border: 2px solid #000;
 }
 
@@ -75,4 +75,64 @@ nav {
 
 footer {
   padding-top: 5%;
+}
+
+
+@media (max-width:900px) {
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  hr {
+    border: dotted #000000 5px;
+    width: 10%;
+    border-bottom: none;
+    margin: 1rem auto;
+  }
+
+  /* Home Section */
+
+  .sub-heading {
+    font-size: 12px;
+  }
+
+  .desc-1 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .col {
+    margin-top: 2%;
+  }
+
+  .col h4 {
+    font-size: 11px;
+  }
+
+  .col p {
+    width: 70%;
+    font-size: 10px;
+  }
+
+  .solar {
+    width: 100%;
+  }
+
+  /* Card Section*/
+
+  .card {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  /* Footer Section */
+
+  footer {
+    padding-top: 5%;
+  }
 }
